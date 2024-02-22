@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{601D9CF3-382B-42B9-90D6-01FFB4B3A6B3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Gestion_Pharmacie_Console</RootNamespace>
+    <AssemblyName>Gestion_Pharmacie_Console</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\Client.cs" />
+    <Compile Include="BL\Medicament.cs" />
+    <Compile Include="BL\Pharmacie.cs" />
+    <Compile Include="BL\ProdParPharm.cs" />
+    <Compile Include="BL\Produit.cs" />
+    <Compile Include="PL\About_Frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\About_Frm.Designer.cs">
+      <DependentUpon>About_Frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Achet_Frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Achet_Frm.Designer.cs">
+      <DependentUpon>Achet_Frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Add_Prod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Add_Prod.Designer.cs">
+      <DependentUpon>Add_Prod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Ad_Clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Ad_Clients.Designer.cs">
+      <DependentUpon>Ad_Clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Approvisionner_Frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Approvisionner_Frm.Designer.cs">
+      <DependentUpon>Approvisionner_Frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Client_Frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Client_Frm.Designer.cs">
+      <DependentUpon>Client_Frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Main_Frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Main_Frm.Designer.cs">
+      <DependentUpon>Main_Frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Produits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Produits.Designer.cs">
+      <DependentUpon>Produits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PL\About_Frm.resx">
+      <DependentUpon>About_Frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Achet_Frm.resx">
+      <DependentUpon>Achet_Frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Add_Prod.resx">
+      <DependentUpon>Add_Prod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Ad_Clients.resx">
+      <DependentUpon>Ad_Clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Approvisionner_Frm.resx">
+      <DependentUpon>Approvisionner_Frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Client_Frm.resx">
+      <DependentUpon>Client_Frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Main_Frm.resx">
+      <DependentUpon>Main_Frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Produits.resx">
+      <DependentUpon>Produits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_229044.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-list-add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adresse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apple-iPhone-7-128-Go-4-7-Rouge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c05477854.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Categorie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Categorize_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close-2-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Connected_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connectmode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Country_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-people.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-service-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deconnect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deconnecte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dell.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Epson.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gmail_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\handshake-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\handshake-4441.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\handshake-1454455.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImpriCanon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imprimer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone 4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone 4s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone 5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone 5s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone 6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone 6plus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone 6s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone s6plus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone4c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone7plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphonex.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\k.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MACBOOKPRO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Motdepasse_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office-Client-Male-Light-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pc acer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcmsi.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pctoshiba.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pdpkeyfeature-sm-g920azdaatt-600x600-C1-062016.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phone_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prix_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quantie_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recycle-iconaaa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samsung s5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samsung s7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samsung s8 plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samsung s8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop-cart-add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shutdown_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SM-T580NZKAXAR-02-71016.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Subtract_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unti-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ville_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medicine-icon-pharmacy-icon-cross-symbol-logo-emblem-png-clip-art.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ficon-isometric-style-vector-20314444.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ficon-isometric-style-vector-203144441.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

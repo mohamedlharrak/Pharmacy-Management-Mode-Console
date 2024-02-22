@@ -1,0 +1,44 @@
+C:\Users\Mohamed L'HARRAK\Desktop\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\bin\Debug\Gestion_Pharmacie_Console.exe.config
+C:\Users\Mohamed L'HARRAK\Desktop\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\bin\Debug\Gestion_Pharmacie_Console.exe
+C:\Users\Mohamed L'HARRAK\Desktop\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\bin\Debug\Gestion_Pharmacie_Console.pdb
+C:\Users\Mohamed L'HARRAK\Desktop\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.csprojAssemblyReference.cache
+C:\Users\Mohamed L'HARRAK\Desktop\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Main_Frm.resources
+C:\Users\Mohamed L'HARRAK\Desktop\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.Properties.Resources.resources
+C:\Users\Mohamed L'HARRAK\Desktop\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.csproj.GenerateResource.cache
+C:\Users\Mohamed L'HARRAK\Desktop\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.exe
+C:\Users\Mohamed L'HARRAK\Desktop\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.pdb
+C:\Users\Mohamed L'HARRAK\Desktop\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Frm_Produits.resources
+C:\Users\Mohamed L'HARRAK\Desktop\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Add_Prod.resources
+C:\Users\Mohamed L'HARRAK\Desktop\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\bin\Debug\Gestion_Pharmacie_Console.exe.config
+C:\Users\Mohamed L'HARRAK\Desktop\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\bin\Debug\Gestion_Pharmacie_Console.exe
+C:\Users\Mohamed L'HARRAK\Desktop\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\bin\Debug\Gestion_Pharmacie_Console.pdb
+C:\Users\Mohamed L'HARRAK\Desktop\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.csprojAssemblyReference.cache
+C:\Users\Mohamed L'HARRAK\Desktop\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Add_Prod.resources
+C:\Users\Mohamed L'HARRAK\Desktop\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Main_Frm.resources
+C:\Users\Mohamed L'HARRAK\Desktop\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Frm_Produits.resources
+C:\Users\Mohamed L'HARRAK\Desktop\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.Properties.Resources.resources
+C:\Users\Mohamed L'HARRAK\Desktop\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.csproj.GenerateResource.cache
+C:\Users\Mohamed L'HARRAK\Desktop\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.exe
+C:\Users\Mohamed L'HARRAK\Desktop\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.pdb
+C:\Users\Mohamed L'HARRAK\Desktop\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Ad_Clients.resources
+C:\Users\Mohamed L'HARRAK\Desktop\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Client_Frm.resources
+C:\Users\Mohamed L'HARRAK\Desktop\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Achet_Frm.resources
+C:\Users\Mohamed L'HARRAK\Desktop\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Approvisionner_Frm.resources
+C:\Users\Mohamed L'HARRAK\Desktop\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.About_Frm.resources
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\bin\Debug\Gestion_Pharmacie_Console.exe.config
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\bin\Debug\Gestion_Pharmacie_Console.exe
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\bin\Debug\Gestion_Pharmacie_Console.pdb
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.csprojAssemblyReference.cache
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.About_Frm.resources
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Achet_Frm.resources
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Add_Prod.resources
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Ad_Clients.resources
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Approvisionner_Frm.resources
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Client_Frm.resources
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Main_Frm.resources
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.PL.Frm_Produits.resources
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.Properties.Resources.resources
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.csproj.GenerateResource.cache
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.csproj.CoreCompileInputs.cache
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.exe
+D:\les donnrer\Gestion_Pharmacie\Gestion_Pharmacie_Console\Gestion_Pharmacie_Console\obj\Debug\Gestion_Pharmacie_Console.pdb
